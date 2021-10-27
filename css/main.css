@@ -1,3 +1,12 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 /* Navbar */
 
 .navbar {
@@ -101,7 +110,7 @@
     margin-top: 25px;
 }
 
-.category_card .card-header {
+.card-header {
     background-color: #EDEFF0;
     border: 0;
 }
@@ -141,20 +150,22 @@
     margin: 0;
 }
 
-
-/* .item-viewer {
+.item-viewer {
     color: #fff;
     padding: 10 px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 70px;
     transform: translate(10 px);
     background: #0fb3f3;
     font-size: 14px;
     letter-spacing: .5px;
     font-weight: 700;
     line-height: 15px;
-} */
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
 
 
 /* Footer style*/
