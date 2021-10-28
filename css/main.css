@@ -6,6 +6,20 @@ a:hover {
     text-decoration: underline;
 }
 
+.carousel-indicators>button,
+.carousel-indicators>button.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 10;
+    background: white;
+    /* text-indent: 0; */
+}
+
+
+/* .carousel-indicators>button.active {
+    background: grey;
+} */
+
 
 /* Text style */
 
@@ -54,6 +68,40 @@ a:hover {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+
+
+/* Slider bar */
+
+.slider-bar {
+    min-height: 400px;
+}
+
+.slider-bar .list-card-slidebar {
+    background-color: #EDEFF0;
+}
+
+.slider-bar .card {
+    background-color: #EDEFF0;
+    padding: 0;
+    border: 0;
+}
+
+.slider-bar .card img {
+    height: 440px;
+}
+
+.list-card-slidebar .card img {
+    height: 200px;
+}
+
+.slider-bar .card .card-img-overlay {
+    top: auto;
+    bottom: 0;
+    color: white;
+    margin: 0;
+    padding: 0 15px 25px 15px;
+    font-size: 16px;
 }
 
 
@@ -158,6 +206,20 @@ a:hover {
     margin: 0;
 }
 
+.list-new-card-vertical {
+    min-height: 300px;
+    margin-inline: 10px;
+    /* padding: 10px; */
+}
+
+.list-new-card-vertical .card-footer {
+    /* padding: 0; */
+    font-size: 13px;
+    background-color: white;
+    border: 0;
+    margin: 0;
+}
+
 .item-viewer {
     color: #fff;
     padding: 10 px;
@@ -171,6 +233,23 @@ a:hover {
     height: 35px;
     width: 60px;
     text-align: center;
+}
+
+.item-new {
+    z-index: 1;
+    position: absolute!important;
+    box-sizing: content-box!important;
+    padding: 1.4px 4px 0.5px 6px !important;
+    font-weight: 500!important;
+    font-size: 12px!important;
+    background: #ffae01;
+    color: #fff;
+    border-radius: 10px;
+    letter-spacing: .1em;
+    text-align: center;
+    text-transform: uppercase;
+    top: 5px;
+    left: 5px;
 }
 
 .item-viewer i {
@@ -192,6 +271,35 @@ a:hover {
 }
 
 .list-card-vertical .item-viewer::after {
+    border-right: 10px solid transparent;
+    border-top: 7px solid rgba(0, 0, 0, .5);
+    bottom: 0;
+    right: 0;
+    transform: translateY(100%);
+    content: "";
+    position: absolute;
+}
+
+.list-new-card-vertical .item-viewer {
+    top: 130px;
+    transform: translate(10px);
+}
+
+.list-new-card-vertical .item-viewer::after {
+    border-right: 10px solid transparent;
+    border-top: 7px solid rgba(0, 0, 0, .5);
+    bottom: 0;
+    right: 0;
+    transform: translateY(100%);
+    content: "";
+    position: absolute;
+}
+
+.slider-bar .item-viewer {
+    transform: translate(10px);
+}
+
+.slider-bar .item-viewer::after {
     border-right: 10px solid transparent;
     border-top: 7px solid rgba(0, 0, 0, .5);
     bottom: 0;
