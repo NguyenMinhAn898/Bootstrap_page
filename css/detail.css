@@ -13,6 +13,14 @@
     color: #FF7068;
 }
 
+.list-same-category a {
+    color: #222;
+}
+
+.list-same-category a:hover {
+    text-decoration: none;
+}
+
 .list-same-category .list-card-vertical .card-body {
     font-size: 14px;
 }
