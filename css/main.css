@@ -12,13 +12,7 @@ a:hover {
     height: 10px;
     border-radius: 10;
     background: white;
-    /* text-indent: 0; */
 }
-
-
-/* .carousel-indicators>button.active {
-    background: grey;
-} */
 
 
 /* Text style */
@@ -26,6 +20,14 @@ a:hover {
 .text-underline-red {
     text-decoration: underline red solid;
     font-size: 25px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-header span {
+    font-size: 26px;
 }
 
 
@@ -230,8 +232,8 @@ a:hover {
     letter-spacing: .5px;
     font-weight: 700;
     line-height: 15px;
-    height: 35px;
-    width: 60px;
+    height: 30px;
+    width: 50px;
     text-align: center;
 }
 
@@ -260,8 +262,8 @@ a:hover {
 
 .list-view .item-viewer {
     transform: translate(10px);
-    height: 35px;
-    width: 55px;
+    height: 30px;
+    width: 50px;
     text-align: center;
 }
 
@@ -313,8 +315,8 @@ a:hover {
     border-right: 10px solid transparent;
     border-top: 7px solid rgba(0, 0, 0, .5);
     bottom: 0;
-    top: 19px;
-    right: -15px;
+    top: 13px;
+    right: -13px;
     transform: translateY(100%);
     content: "";
     position: absolute;

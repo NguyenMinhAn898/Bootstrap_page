@@ -1,0 +1,29 @@
+.card-text {
+    font-size: 15px;
+    margin: 15px 0 !important;
+}
+
+.category_card .card-body {
+    padding: 40px 40px 15px 40px;
+}
+
+.card-body footer {
+    margin-top: 35px;
+    font-size: 20px;
+    color: #FF7068;
+}
+
+.list-same-category .list-card-vertical .card-body {
+    font-size: 14px;
+}
+
+.list-same-category .list-card-vertical .card-body .card-title {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.list-same-category .list-card-vertical .card-footer {
+    padding: 15px 4px;
+    font-size: 12px;
+}
