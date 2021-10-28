@@ -7,6 +7,14 @@ a:hover {
 }
 
 
+/* Text style */
+
+.text-underline-red {
+    text-decoration: underline red solid;
+    font-size: 25px;
+}
+
+
 /* Navbar */
 
 .navbar {
@@ -155,16 +163,53 @@ a:hover {
     padding: 10 px;
     position: absolute;
     right: 0;
-    top: 70px;
-    transform: translate(10 px);
     background: #0fb3f3;
     font-size: 14px;
     letter-spacing: .5px;
     font-weight: 700;
     line-height: 15px;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 60px;
     text-align: center;
+}
+
+.item-viewer i {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.list-view .item-viewer {
+    transform: translate(10px);
+    height: 35px;
+    width: 55px;
+    text-align: center;
+}
+
+.list-card-vertical .item-viewer {
+    top: 100px;
+    transform: translate(10px);
+}
+
+.list-card-vertical .item-viewer::after {
+    border-right: 10px solid transparent;
+    border-top: 7px solid rgba(0, 0, 0, .5);
+    bottom: 0;
+    right: 0;
+    transform: translateY(100%);
+    content: "";
+    position: absolute;
+}
+
+.list-view .item-viewer ::after {
+    border-right: 10px solid transparent;
+    border-top: 7px solid rgba(0, 0, 0, .5);
+    bottom: 0;
+    top: 19px;
+    right: -15px;
+    transform: translateY(100%);
+    content: "";
+    position: absolute;
 }
 
 
@@ -180,4 +225,9 @@ a:hover {
     width: 100%;
     min-height: 60px;
     max-height: 80px;
+}
+
+.link-footer {
+    color: #222;
+    text-decoration: underline;
 }

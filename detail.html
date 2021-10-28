@@ -8,6 +8,7 @@
     <title>Bootstrap Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
     <link href="/css/main.css" rel="stylesheet">
 </head>
@@ -77,19 +78,24 @@
             <!-- Content -->
             <div class="col-md-10 content p-0">
                 <div class="layout_content ">
-                    <h4 style="text-decoration: underline  red solid;">Details</h4>
+                    <h4 class="m-0 py-2"><span style="border-bottom: 3px solid red; ">Details </span></h4>
                     <div class="row">
                         <!-- Detail -->
                         <div class="col-md-9 px-3">
+                            <!-- Content detail -->
                             <div class="card category_card ">
                                 <div class="card-header text-center m-2 mt-0">
                                     <span style="font-size:25px">Reuters</span>
                                 </div>
                                 <div style="margin: 0;">
-                                    <img src="https://picsum.photos/250" class="card-img-top img" height="450px" style="margin-top:10px" alt="...">
-                                    <span class="item-viewer">
-                                        <i class="fas fa-eye"></i>
-                                        0</span>
+                                    <div>
+                                        <span class="item-viewer text-center">
+                                            <i class="fas fa-eye"> 0 </i>
+                                            
+                                        </span>
+                                    </div>
+                                    <img src="https://picsum.photos/250" class="card-img-top img m-0" height="450px" style="margin-top:10px" alt="...">
+
 
                                 </div>
                                 <div class="card-body p-5">
@@ -107,11 +113,16 @@
                                 </div>
                             </div>
                             <div class="col-12 p-0 mt-5">
-                                <h3>Aco</h3>
+                                <h4 class="m-0"><span style="border-bottom: 3px solid red; "> Aco c</span></h4>
                                 <div class="row  row-cols-1 row-cols-md-4">
                                     <div class="col py-3">
                                         <div class="card list-card-vertical ">
-                                            <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                            <div>
+                                                <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                                <span class="item-viewer text-center">
+                                                    <i class="fas fa-eye"> 1 </i>                                        
+                                                </span>
+                                            </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
                                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -128,7 +139,12 @@
                                     </div>
                                     <div class="col py-3">
                                         <div class="card list-card-vertical ">
-                                            <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                            <div>
+                                                <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                                <span class="item-viewer text-center">
+                                                    <i class="fas fa-eye"> 1 </i>                                        
+                                                </span>
+                                            </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
                                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -145,7 +161,12 @@
                                     </div>
                                     <div class="col py-3">
                                         <div class="card list-card-vertical ">
-                                            <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                            <div>
+                                                <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                                <span class="item-viewer text-center">
+                                                    <i class="fas fa-eye"> 8 </i>                                        
+                                                </span>
+                                            </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
                                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -162,7 +183,12 @@
                                     </div>
                                     <div class="col py-3">
                                         <div class="card list-card-vertical ">
-                                            <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                            <div>
+                                                <img src="https://picsum.photos/150" class="card-img-top" style="height:120px">
+                                                <span class="item-viewer text-center">
+                                                    <i class="fas fa-eye"> 1 </i>                                        
+                                                </span>
+                                            </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
                                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -184,34 +210,50 @@
                         <!-- Right -->
                         <div class="col-md-3 px-3">
                             <div class="m-2 card-header px-0">
-                                <h4 style="text-decoration: underline  red solid;">List right</h4>
+                                <h4 class="m-0"><span style="border-bottom: 3px solid red; ">List right</span></h4>
                             </div>
                             <div class="col list-view p-4">
                                 <div class="card py-3">
+                                    <span class="item-viewer text-center">
+                                        <i class="fas fa-eye"> 1 </i>                                        
+                                    </span>
+
                                     <img class="card-img-top" src="https://picsum.photos/100" style="height:150px">
                                     <div class="card-title card-img-overlay text-start">
                                         <span> ＡＮＡホールディングスの２０２１ abc xz</span>
                                     </div>
                                 </div>
                                 <div class="card py-3">
+                                    <span class="item-viewer text-center">
+                                        <i class="fas fa-eye"> 1 </i>                                        
+                                    </span>
                                     <img class="card-img-top" src="https://picsum.photos/100" style="height:150px">
                                     <div class="card-title card-img-overlay text-start">
                                         <span> ＡＮＡホールディングスの２０２１ abc xz</span>
                                     </div>
                                 </div>
                                 <div class="card py-3">
+                                    <span class="item-viewer text-center">
+                                        <i class="fas fa-eye"> 1 </i>                                        
+                                    </span>
                                     <img class="card-img-top" src="https://picsum.photos/100" style="height:150px">
                                     <div class="card-title card-img-overlay text-start">
                                         <span> ＡＮＡホールディングスの２０２１ abc xz</span>
                                     </div>
                                 </div>
                                 <div class="card py-3">
+                                    <span class="item-viewer text-center">
+                                        <i class="fas fa-eye"> 1 </i>                                        
+                                    </span>
                                     <img class="card-img-top" src="https://picsum.photos/100" style="height:150px">
                                     <div class="card-title card-img-overlay text-start">
                                         <span> ＡＮＡホールディングスの２０２１ abc xz</span>
                                     </div>
                                 </div>
                                 <div class="card py-3">
+                                    <span class="item-viewer text-center">
+                                        <i class="fas fa-eye"> 1 </i>                                        
+                                    </span>
                                     <img class="card-img-top" src="https://picsum.photos/100" style="height:150px">
                                     <div class="card-title card-img-overlay text-start">
                                         <span> ＡＮＡホールディングスの２０２１ abc xz</span>
@@ -227,7 +269,7 @@
                         Copyright©2020 Glocal ALL Right Reserved
                     </p>
                     <p>
-                        <a class="link-dark m-3" href="index.html">プライバシーポリシー</a>
+                        <a class="link-footer m-3" href="index.html">プライバシーポリシー</a>
                     </p>
                 </footer>
             </div>
