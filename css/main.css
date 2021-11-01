@@ -14,6 +14,26 @@ a:hover {
     background: white;
 }
 
+.pr-0 {
+    padding-right: 0;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.card .card-footer {
+    min-height: 40px;
+    font-size: 14px !important;
+    padding: 5px 20px 15px;
+    color: #777;
+    text-align: left;
+}
+
+.card .card-footer .time-right {
+    text-align: right;
+}
+
 
 /* Text style */
 
@@ -23,7 +43,16 @@ a:hover {
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #2d2d2d;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.card-body .card-text {
+    color: #777;
+    font-size: 14px;
 }
 
 .card-header span {
@@ -209,7 +238,7 @@ a:hover {
 }
 
 .list-new-card-vertical {
-    min-height: 300px;
+    min-height: 400px;
     margin-inline: 10px;
     /* padding: 10px; */
 }
